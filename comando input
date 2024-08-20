@@ -1,0 +1,3 @@
+numero1 = int (input ("Por favor, digite o primeiro número"))
+numero2 = int (input ("Por favor, digite o segundo número"))
+print (f'O resultado da soma é: {numero1 + numero2}')
