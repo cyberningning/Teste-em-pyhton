@@ -1,0 +1,7 @@
+times_cariocas = ["Flamengo","Vasco","Fluminense","Botafogo"]
+time_digitado = input ("Escreva o nome de um dos quatro times do Rio de Janeiro")
+#print (f {time_digitado} não é um dos quatro grandes times do RJ")
+if time_digitado in times_cariocas:
+    print(f"{time_digitado} é um dos quatro grandes times do RJ!")
+else:
+    print(f"{time_digitado} não é um dos quatro grandes times do RJ.")
