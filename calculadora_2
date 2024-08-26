@@ -1,0 +1,14 @@
+operacao = int(input("Qual é o tipo de operação: 1 - Soma, 2 - Subtração, 3 - Multiplicação, 4 - Divisão: "))
+numero1 = int(input("Digite o primeiro número: "))
+numero2 = int(input("Digite o segundo número: "))
+
+if operacao == 1:
+    print(f'O resultado da soma é: {numero1 + numero2}')
+elif operacao == 2:
+    print(f'O resultado da subtração é: {numero1 - numero2}')
+elif operacao == 3:
+    print(f'O resultado da multiplicação é: {numero1 * numero2}')
+elif operacao == 4:
+    print(f'O resultado da divisão é: {numero1 / numero2}')
+else:
+     print("operacao realizada")
